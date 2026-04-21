@@ -1,10 +1,11 @@
 #!/bin/bash
-# Inhalt von deploy.env
-#SOURCE_PATH=""
-#REMOTE_USER=""
-#REMOTE_HOST=""
-#REMOTE_PATH=""
-
+# Inhalt von .env
+# SOURCE_PATH="/home/user/Arduino/BluetoothScan/Renogy-Battery-ESP32-Bluetooth-MQTT-Bridge/"
+# REMOTE_USER="user"
+# REMOTE_HOST="10.x.x.x"
+# REMOTE_PATH="/home/user/Arduino/"
+# REMOTE_PROJECTNAME="BluetoothScan/Renogy-Battery-ESP32-Bluetooth-MQTT-Bridge"
+# REMOTE_BUILDDIR="build/esp32.esp32.esp32/"
 
 # Pfad zur .env Datei (gleiches Verzeichnis wie das Skript)
 ENV_FILE="$(dirname "$0")/.env"
