@@ -41,8 +41,10 @@ This project includes a two-step deployment process to build on one machine and 
 ### Remote Deploy (`deploy_and_flash.sh`)
 This script uploads the compiled `.bin` files to a secondary machine. To use this, you must create a `.env` file in the root directory to store your credentials and remote paths.
 
+```bash
 chmod +x deploy_and_flash.sh
 ./deploy_and_flash.sh
 
 chmod +x upload_and_monitor_log.sh
 ./upload_and_monitor_log.sh
+```
