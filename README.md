@@ -31,4 +31,5 @@ Before uploading, rename `config.h.example` to `config.h` and fill in your crede
 * Board: ESP32 Dev Module, Tools > Partition Scheme > Huge App
 * Core: 3.3.7
 * NimBLE 2.5
+* PubSubClient 2.8
 * ESPTelnet by Lennart 2.2.3
