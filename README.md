@@ -33,3 +33,16 @@ Before uploading, rename `config.h.example` to `config.h` and fill in your crede
 * NimBLE 2.5
 * PubSubClient 2.8
 * ESPTelnet by Lennart 2.2.3
+
+## 🚢 Deployment & Flashing
+
+This project includes a two-step deployment process to build on one machine and flash from another (e.g., a remote terminal or a dedicated flashing station).
+
+### Remote Deploy (`deploy_and_flash.sh`)
+This script uploads the compiled `.bin` files to a secondary machine. To use this, you must create a `.env` file in the root directory to store your credentials and remote paths.
+
+chmod +x deploy_and_flash.sh
+./deploy_and_flash.sh
+
+chmod +x upload_and_monitor_log.sh
+./upload_and_monitor_log.sh
